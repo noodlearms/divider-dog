@@ -2,4 +2,4 @@
 division maths
 
 Hey there,
-This is a random repository as Im a gitnube.
+This is a random repository as I'm a gitnube.
