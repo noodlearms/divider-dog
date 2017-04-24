@@ -1,0 +1,11 @@
+def pyCommonDivisors(n,m):
+    ''' return a set of all divisors of both n and m
+        example 1: print(pyCommonDivisors(1000,912))
+    '''
+    if n==0:
+        n = int(input("enter an integer n>0:"))
+    if m==0:
+        m = int(input("enter an integer m>0:"))
+    divN = set(pyDivisors(n))
+    divM = set(pyDivisors(m))
+    return divM.intersection(divN)
